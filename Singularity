@@ -6,8 +6,8 @@ From: pytorch/pytorch:latest
 
 
 apt-get -y update
-#apt-get -y install python3 --reinstall
-#apt-get -y install python3-pip --reinstall
+apt-get -y install python3 --reinstall
+apt-get -y install python3-pip --reinstall
 
 pip install --upgrade pip
 pip install numpy
