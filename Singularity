@@ -1,6 +1,6 @@
 Bootstrap: docker
-From: nvidia/cuda:9.0-cudnn7-runtime
-#From: python:3
+#From: nvidia/cuda:9.0-cudnn7-runtime
+From: python:3
 
 %environment
 
@@ -15,6 +15,7 @@ CUDA_ROOT=/usr/local/cuda-9.0
 
 
 apt-get -y update
+apt-get -y install cuda
 #apt-get -y install python3 --reinstall
 apt-get -y install python3-pip --reinstall
 
