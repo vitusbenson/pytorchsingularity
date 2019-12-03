@@ -15,7 +15,7 @@ CUDA_ROOT=/usr/local/cuda-9.0
 
 
 apt-get -y update
-apt-get -y install cuda
+#apt-get -y install cuda
 #apt-get -y install python3 --reinstall
 apt-get -y install python3-pip --reinstall
 
