@@ -21,10 +21,10 @@ apt-get -y update
 apt-get -y install python3 --reinstall
 apt-get -y install python3-pip --reinstall
 
-python -m pip3 install --upgrade pip 
-python -m pip3 install numpy
-python -m pip3 install torch torchvision tensorflow-gpu
-python -m pip3 install jupyter matplotlib tqdm Pillow shapely opencv-python pandas scikit-learn imgaug imantics scipy scikit-image
+python3 -m pip3 install --upgrade pip 
+python3 -m pip3 install numpy
+python3 -m pip3 install torch torchvision tensorflow-gpu
+python3 -m pip3 install jupyter matplotlib tqdm Pillow shapely opencv-python pandas scikit-learn imgaug imantics scipy scikit-image
 
 
 
