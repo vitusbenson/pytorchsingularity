@@ -23,7 +23,6 @@ apt-get -y install python3-pip --reinstall
 apt-get -y install libglib2.0-0
 apt-get -y install wget
 apt-get -y install pv
-apt-get -y install ping
 apt-get -y install libavcodec-dev libavformat-dev libswscale-dev
 apt-get -y install libgstreamer-plugins-base1.0-dev libgstreamer1.0-dev
 apt-get -y install libgtk-3-dev
