@@ -24,6 +24,14 @@ apt-get -y install libglib2.0-0
 apt-get -y install wget
 apt-get -y install pv
 apt-get -y install ping
+apt-get -y install libavcodec-dev libavformat-dev libswscale-dev
+apt-get -y install libgstreamer-plugins-base1.0-dev libgstreamer1.0-dev
+apt-get -y install libgtk-3-dev
+apt-get -y install libpng-dev
+apt-get -y install libjpeg-dev
+apt-get -y install libopenexr-dev
+apt-get -y install libtiff-dev
+apt-get -y install libwebp-dev
 
 python3 -m pip install --upgrade pip 
 python3 -m pip install numpy
