@@ -20,6 +20,10 @@ apt-get -y update
 #apt-get -y install cuda
 apt-get -y install python3 --reinstall
 apt-get -y install python3-pip --reinstall
+apt-get -y install libglib2.0-0
+apt-get -y install wget
+apt-get -y install pv
+apt-get -y install ping
 
 python3 -m pip install --upgrade pip 
 python3 -m pip install numpy
