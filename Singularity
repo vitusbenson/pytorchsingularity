@@ -19,8 +19,8 @@ apt-get -y update
 #apt-get -y install software-properties-common
 #add-apt-repository ppa:deadsnakes/ppa
 #apt-get -y install cuda
-#apt -y install python3.8
-apt-get -y install python3.8 --reinstall
+#apt -y install python3.7
+apt-get -y install python3.7 --reinstall
 apt-get -y install python3-pip --reinstall
 apt-get -y install libglib2.0-0
 apt-get -y install wget
@@ -35,9 +35,9 @@ apt-get -y install libopenexr-dev
 apt-get -y install libtiff-dev
 apt-get -y install libwebp-dev
 
-python3.8 -m pip install --upgrade pip 
-python3.8 -m pip install --upgrade setuptools
-python3.8 -m pip install numpy
-python3.8 -m pip install torch torchvision tensorflow-gpu
-python3.8 -m pip install jupyter matplotlib tqdm Pillow shapely opencv-python pandas scikit-learn imgaug imantics scipy scikit-image
-python3.8 -m pip install git+https://github.com/QUVA-Lab/e2cnn.git
+python3.7 -m pip install --upgrade pip 
+python3.7 -m pip install --upgrade setuptools
+python3.7 -m pip install numpy
+python3.7 -m pip install torch torchvision tensorflow-gpu
+python3.7 -m pip install jupyter matplotlib tqdm Pillow shapely opencv-python pandas scikit-learn imgaug imantics scipy scikit-image
+python3.7 -m pip install git+https://github.com/QUVA-Lab/e2cnn.git
