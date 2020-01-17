@@ -18,7 +18,7 @@ http_proxy="http://www-cache.gwdg.de:3128/"
 
 apt-get -y update
 #apt-get -y install cuda
-apt-get -y install python3 --reinstall
+apt-get -y install python3.8 --reinstall
 apt-get -y install python3-pip --reinstall
 apt-get -y install libglib2.0-0
 apt-get -y install wget
@@ -38,4 +38,4 @@ python3 -m pip install --upgrade setuptools
 python3 -m pip install numpy
 python3 -m pip install torch torchvision tensorflow-gpu
 python3 -m pip install jupyter matplotlib tqdm Pillow shapely opencv-python pandas scikit-learn imgaug imantics scipy scikit-image
-#python3 -m pip install git+https://github.com/QUVA-Lab/e2cnn.git
+python3 -m pip install git+https://github.com/QUVA-Lab/e2cnn.git
