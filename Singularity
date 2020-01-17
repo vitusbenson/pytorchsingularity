@@ -14,12 +14,11 @@ http_proxy="http://www-cache.gwdg.de:3128/"
 
 %post
 
-
-
-add-apt-repository ppa:deadsnakes/ppa
 apt-get -y update
+apt-get -y install software-properties-common
+add-apt-repository ppa:deadsnakes/ppa
 #apt-get -y install cuda
-apt install python3.8
+apt -y install python3.8
 #apt-get -y install python3.7 --reinstall
 apt-get -y install python3-pip --reinstall
 apt-get -y install libglib2.0-0
