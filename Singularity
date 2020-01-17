@@ -1,5 +1,6 @@
 Bootstrap: docker
-From: nvidia/cuda:9.0-cudnn7-runtime-ubuntu16.04
+#From: nvidia/cuda:9.0-cudnn7-runtime-ubuntu16.04
+From: nvidia/cuda:10.1-cudnn7-runtime-ubuntu18.04
 #From: python:3
 
 %environment
@@ -15,11 +16,11 @@ http_proxy="http://www-cache.gwdg.de:3128/"
 %post
 
 apt-get -y update
-apt-get -y install software-properties-common
-add-apt-repository ppa:deadsnakes/ppa
+#apt-get -y install software-properties-common
+#add-apt-repository ppa:deadsnakes/ppa
 #apt-get -y install cuda
-apt -y install python3.8
-#apt-get -y install python3.7 --reinstall
+#apt -y install python3.8
+apt-get -y install python3.8 --reinstall
 apt-get -y install python3-pip --reinstall
 apt-get -y install libglib2.0-0
 apt-get -y install wget
