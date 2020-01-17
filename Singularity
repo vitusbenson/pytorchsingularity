@@ -33,8 +33,8 @@ apt-get -y install libtiff-dev
 apt-get -y install libwebp-dev
 
 python3 -m pip install --upgrade pip 
+python3 -m pip install --upgrade setuptools
 python3 -m pip install numpy
 python3 -m pip install torch torchvision tensorflow-gpu
 python3 -m pip install jupyter matplotlib tqdm Pillow shapely opencv-python pandas scikit-learn imgaug imantics scipy scikit-image
-python3 -m pip install --upgrade setuptools
 python3 -m pip install git+https://github.com/QUVA-Lab/e2cnn.git
