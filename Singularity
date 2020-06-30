@@ -10,8 +10,8 @@ PATH=${PATH}:${LSF_BINDIR}:/cm/local/apps/cuda/libs/current/bin
 LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:/usr/local/cuda-9.0/lib64:/cm/local/apps/cuda-driver/libs/current/lib64
 CUDA_PATH=/usr/local/cuda-9.0
 CUDA_ROOT=/usr/local/cuda-9.0
-https_proxy="https://www-cache.gwdg.de:3128/"
-http_proxy="http://www-cache.gwdg.de:3128/"
+export https_proxy="https://www-cache.gwdg.de:3128/"
+export http_proxy="http://www-cache.gwdg.de:3128/"
 
 %post
 
