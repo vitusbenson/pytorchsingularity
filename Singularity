@@ -38,6 +38,8 @@ apt-get -y install libwebp-dev
 python3.7 -m pip install --upgrade pip 
 python3.7 -m pip install --upgrade setuptools
 python3.7 -m pip install numpy
-python3.7 -m pip install torch torchvision tensorflow-gpu
-python3.7 -m pip install jupyter matplotlib tqdm Pillow shapely opencv-python pandas scikit-learn imgaug imantics scipy scikit-image
+python3.7 -m pip install torch==1.5.0+cu101 torchvision==0.6.0+cu101 -f https://download.pytorch.org/whl/torch_stable.html 
+python3.7 -m pip install torchcontrib pytorch-lightning
+#python3.7 -m pip install torch torchvision tensorflow-gpu
+python3.7 -m pip install jupyter jupyterlab matplotlib tqdm Pillow shapely opencv-python pandas scikit-learn imgaug imantics scipy scikit-image
 python3.7 -m pip install git+https://github.com/QUVA-Lab/e2cnn.git
